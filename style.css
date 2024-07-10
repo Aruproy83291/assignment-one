@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+    
+}
+/* Nav Styles */
+.nav-content{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 32px;
+}
+.nav-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+}
+.btn-primary{
+    width: 228px;
+    height: 58px;
+    border: none;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* hero section */
+.header-section-container {
+    width: 1540px;
+    height: 652px;
+    margin: 0px auto;
+    background-image: url("./assets/Hero-bg.png");
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 440px;
+
+}
+.header-content{
+    width: 998px;
+    height: 136px;
+    text-align:center;
+
+}
+.header-content img{
+    align-items: center;
+    padding-bottom: 32px;
+
+    
+
+}
+.header-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 50px;
+}
+.header-content h2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+}
+
+.header-section-container .header-section-button{
+    width: 230px;
+    height: 66px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 44px;
+    margin-bottom: 44px;
+    text-decoration: none;
+}
+.header-section-button a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.header-section-button{
+    
+}
