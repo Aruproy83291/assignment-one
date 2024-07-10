@@ -105,27 +105,27 @@ font-weight: 800;
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.wev-dev-content{
+    width: 946px;
+    height: 1235px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.h2-tag{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.p-tag{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
 .web-frist-content{
     width: 946px;
     height: 336px;
@@ -133,12 +133,14 @@ font-weight: 800;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     display: flex;
-    margin-top: 100px;
+    margin-top: 10px;
+    margin-bottom: 100px;
 } 
 .web-text-content{
     width: 477px;
     height: 220px;
     margin-top: 55px;
+    
 }
 .web-text-content h2{
     color: rgba(13, 19, 33, 0.7);
@@ -174,4 +176,34 @@ font-weight: 800;
     width: 477px;
     height: 220px;
     margin-top: 50px;
+}
+.second-content{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-top: 48px;
+}
+.second-content-para{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.second-content .Learn-more-btn{
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 10px;
+    margin-right: 360px;
 }
