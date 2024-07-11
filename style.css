@@ -104,7 +104,6 @@ font-weight: 800;
     margin-left: 180px;
     
 }
-
 .wev-dev-content{
     width: 946px;
     height: 1235px;
@@ -284,27 +283,28 @@ margin-right: 50px;
     margin: 0 auto;
     margin-top: 800px;
 }
-.my-current-target-text-containear{
+.my-current-target-text-container{
     width: 946px;
     height: 113px;
     margin: 0px auto;
 }
-.my-current-target-text-containear h2{
+.my-current-target-text-container h2{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     text-align: center;
     margin-top: 0px;
+    margin-bottom: 20px;
 }
-.my-current-target-text-containear p{
+.my-current-target-text-container p{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
 }
-.my-current-terget-content{
+.my-current-target-content{
     display: flex;
     justify-content: space-evenly;
     margin-top: 48px;
@@ -312,6 +312,7 @@ margin-right: 50px;
 .text-content {
     width: 284px;
     height: 219px;
+    padding: 40px;
 }
 
 .text-content h1 {
@@ -319,6 +320,7 @@ margin-right: 50px;
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
+    padding: 20px;
 }
 
 .text-content p {
@@ -344,9 +346,12 @@ margin-right: 50px;
 .second {
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 
 .third {
+    padding-top: 10px;
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
 }
@@ -382,6 +387,7 @@ margin-right: 50px;
     font-weight: 700;
     text-align: center;
     margin-top: 5px;
+    padding-bottom: 20px;
 }
 .footer-text-content p{
     color: rgb(255, 255, 255);
@@ -417,8 +423,12 @@ margin-right: 50px;
     font-weight: 600;
     line-height: 23px;
     border: none;
+    border-radius: 8px;
     margin-left: 20px;
     text-align: center;
+}
+#placeholder{
+    padding-left: 10px;
 }
 /* Last section starts here */
 .last-container {
@@ -448,3 +458,4 @@ margin-right: 50px;
 .end-section-icon {
     margin-top: 30px;
 }
+/* end */
