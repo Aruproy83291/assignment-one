@@ -351,3 +351,100 @@ margin-right: 50px;
     background: rgba(255, 223, 0, 0.05);
 }
 /* My current target  section starts   */ 
+.footer-container{
+    width: 1140px;
+    height: 313px;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 40px;
+    background-image: url("./assets/handshake.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-text-container{
+    width: 1044px;
+    height: 185px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.footer-text-content{
+    width: 730px;
+    height: 104px;
+    margin: 0 auto;
+}
+.footer-text-content h2{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5px;
+}
+.footer-text-content p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.search-container input{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: 57px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.search-container button {
+    width: 120px;
+    height: 57px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border: none;
+    margin-left: 20px;
+    text-align: center;
+}
+/* Last section starts here */
+.last-container {
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.end-section-icon li {
+    display: inline;
+    margin: 10px;
+}
+.end-text-content{
+    margin-top: 40px;
+}
+.end-text-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+.end-section-icon {
+    margin-top: 30px;
+}
