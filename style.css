@@ -277,3 +277,77 @@ margin-right: 50px;
 }
 
 
+/*  My current target  section starts  */
+.my-current-target-container{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 800px;
+}
+.my-current-target-text-containear{
+    width: 946px;
+    height: 113px;
+    margin: 0px auto;
+}
+.my-current-target-text-containear h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0px;
+}
+.my-current-target-text-containear p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.my-current-terget-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 48px;
+}
+.text-content {
+    width: 284px;
+    height: 219px;
+}
+
+.text-content h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.text-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.text-content a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.first {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.second {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.third {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+/* My current target  section starts   */ 
