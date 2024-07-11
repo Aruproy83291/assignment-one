@@ -134,7 +134,7 @@ font-weight: 800;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     display: flex;
     margin-top: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 } 
 .web-text-content{
     width: 477px;
@@ -169,7 +169,7 @@ font-weight: 800;
     opacity: 0.7;
     margin-top: 32px;
     margin-right: 300px;
-    margin-left: 50px;
+    margin-left: 46px;
     
 }
 .wev-dev-images{
@@ -186,7 +186,6 @@ font-weight: 800;
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 25px;
-    padding-left: 50px;
     padding-top: 48px;
 }
 .second-content-para{
@@ -197,6 +196,7 @@ font-weight: 800;
     text-align: left;
     margin-top: 0;
     margin-bottom: 0;
+    padding-top: 20px;
 
 }
 .second-content .Learn-more-btn{
@@ -207,3 +207,73 @@ font-weight: 800;
     margin-top: 10px;
     margin-right: 360px;
 }
+.web-dev-images h2{
+    padding-right: 50px;
+    margin-top: 40px;
+    padding-bottom: 0;
+}
+.second-button{
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 32px;
+    margin-right: 300px;
+    margin-left: 0%;
+    padding: 12px,20px;
+    display: flex;
+}
+
+/* my inspristion section starts here*/
+.my-inspiration-container{
+    width: 852px;
+    height: 52px;
+    margin: 0 auto;
+    margin-right: 490px;
+}
+.my-inspiration-text-content h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+    padding-left: 200px;
+}
+.my-inspiration-text-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px;
+    padding-left: 200px;
+
+}
+.my-inspiration-video-content{
+    width: 1140px;
+    height: 614px;
+    margin-top: 40px;
+    border: 1px solid rgba(13,19,33,0.2);
+    border-radius: 16px;
+    padding-right: 50px;
+}
+.div-video iframe{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+    margin: 10px 0px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.div-video{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+margin: 0 auto;
+margin-right: 50px;
+}
+
+
